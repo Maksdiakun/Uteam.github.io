@@ -1,0 +1,25 @@
+@mixin transition {
+  transition: 0.3s all ease;
+}
+.transition {
+  @include transition;
+}
+@mixin main_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 18px;
+  @include transition;
+}
+@mixin after {
+  content: '';
+  position: absolute;
+}
+@mixin top_center{
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
