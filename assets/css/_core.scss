@@ -15,6 +15,7 @@ body{
 }
 main{
     padding-bottom: 40px;
+    overflow: hidden;
 }
 *{
     line-height: 130%;
@@ -22,6 +23,11 @@ main{
 
 p{
     line-height: 140%; 
+}
+.my_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
 .red_btn{
     @include main_btn;

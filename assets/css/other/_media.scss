@@ -130,19 +130,17 @@
     .tabs_controls_sm{
         display: none;
     }
-  
+  .full_container{
+      width: 100vw;
+      padding: 0;
+  }
 }
 @media(max-width:400px){
     h2{
         font-size: 24px;
     }
     .menu_inf li a,.mobile_menu li{
-        font-size: 14px;
-    }
-}
-@media(max-width:374px){
-    .menu_inf li a,.mobile_menu li{
-        font-size: 12px;
+        font-size: 13px;
     }
     .mobile_menu li{
         margin-bottom: 15px;
@@ -150,6 +148,8 @@
     .mobile_menu{
         padding: 15px 30px;
     }
+}
+@media(max-width:374px){
     .header_right_side>:not(.menu):after{
         display: none;
     }
