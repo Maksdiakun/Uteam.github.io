@@ -1,0 +1,35 @@
+.template_page{
+    padding:60px 0;
+        .grey_line{
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+}
+.news_item_img{
+    img{
+        margin: 0 auto;
+    }
+    margin-bottom: 15px;
+}
+.text_page_content{
+    margin-top: 20px;
+    p{
+        line-height: 24px;
+        margin-bottom: 20px;
+        letter-spacing: 0.04em;
+    }
+    .col-md-7{
+        padding-right: 35px;
+    }
+}
+.text_page{
+    .red_btn{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &_img{
+        img{
+            margin: 0 auto;
+        }
+    }
+}
