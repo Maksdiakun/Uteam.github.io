@@ -81,6 +81,7 @@ $(document).ready(function () {
     $('select').styler();
     var mySwiper = new Swiper('.top_banner_wrap .swiper-container', {
         speed: 400,
+        disableOnInteraction: true,
         autoplay: {
             delay: 3000,
         },

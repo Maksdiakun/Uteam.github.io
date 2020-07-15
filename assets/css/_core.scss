@@ -65,6 +65,16 @@ p{
         }
     }
 }
+.transparent_btn{
+    @include main_btn;
+    @include transition;
+    border: 1px solid #333333;
+    width: 220px;
+    &:hover{
+        background-color: #333;
+        color: #fff !important;
+    }
+}
 .just_btwn{
     display: flex;
     justify-content: space-between;
