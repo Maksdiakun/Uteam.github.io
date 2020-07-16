@@ -35,6 +35,10 @@
                 }
             }
         }
+        .additional_services li{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
 }
 @media(max-width:991.9px){
     .top_banner_img{
@@ -57,21 +61,6 @@
     .about_us_img{
         margin-top: 20px;
     }
-    // .contacts{
-    //     &_mail,&_numbers{
-    //         justify-content: space-between;
-    //         text-align: center;
-    //         a{
-    //             width: 50%;
-    //         }
-    //     }
-    //     &_right{
-    //         margin-left: 0;
-    //     }
-    //     &_left{
-    //         order: 2;
-    //     }
-    // }
     .contacts{
         &_right{
             width: auto;
@@ -99,6 +88,21 @@
         }
 
     }
+    .services_page .secvices_section .row{
+        justify-content: center;
+    }
+    .services_page .service_item:not(:last-child){
+        margin-right: 0;
+    }
+    .services_page .service_item:nth-child(odd){
+        margin-right: 30px;
+    }
+    .services_page .service_item{
+        margin-bottom: 30px;
+    }
+    .additional_services{
+        margin-bottom: 30px;
+    }
 }
 @media(max-width:767.9px){
     .choose_us_item{
@@ -116,6 +120,12 @@
         .col-md-7{
             order: 2;
         }
+    }
+    .services_page .service_item:nth-child(odd){
+        margin-right: 10px;
+    }
+    .services_page .service_item{
+        width: 250px;
     }
 }
 @media(max-width:575.9px){
@@ -205,6 +215,43 @@
         &_right{
             margin-left: 0;
         }
+    }
+    .services_page .service_item:nth-child(odd){
+        margin-right: 0px;
+    }
+    .additional_services li{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .additional_services li div{
+        line-height: 20px;
+    }
+    .additional_services_title,.services_add_title{
+        font-size: 20px;
+    }
+    .additional_services>.text_center{
+        font-size: 12px;
+    }
+    .additional_services li>div:last-child{
+        width: 90px;
+    }
+    .additional_services li>div:last-child:after{
+        height: calc(100% + 10px);
+    }
+    .faq_item_header p{
+        font-size: 16px;
+    }
+    .faq_item_header div{
+        span{
+            line-height: 18px;
+        }
+    } 
+    .faq_item_body{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .faq_title{
+        font-size: 18px;
     }
 }
 @media(max-width:400px){

@@ -9,7 +9,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent">
     <meta name="format-detection" content="telephone=no">
-    <title>Uteam/promotions</title>
+    <title>Uteam</title>
 
     <!-- Core CSS Template -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -133,152 +133,326 @@
             </div>
         </div>
     </header>
-    <main class="promotions template_page">
-        <section class="news">
-            <div class="container">
-                <h2>
-                    АКЦІЇ
-                </h2>
-                <div class="grey_line"></div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image16.svg" alt="">
+    <main class="template_page payment ">
+        <div class="container">
+            <h2>
+                ОПЛАТА
+            </h2>
+            <div class="grey_line"></div>
+            <div>
+                <ul class="nav tabs_controls tabs_controls_sm " role="tablist">
+                    <li>
+                        <a class="active" data-toggle="tab" href="#value1" role="tab" aria-selected="true">
+                            <p>
+                                ОНЛАЙН
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#value2" role="tab" aria-selected="false">
+                            <p>
+                                В ТЕРМІНАЛІ
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#value3" role="tab" aria-selected="false">
+                            <p>
+                                В КАСІ
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <select class="select_tabs">
+                    <option value="value1"> ОНЛАЙН</option>
+                    <option value="value2">В ТЕРМІНАЛІ</option>
+                    <option value="value3">В КАСІ</option>
+                </select>
+                <div class="select_tabs_content tab-content">
+                    <div class="tab-pane fade1 fade show active" id="value1" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/privat.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            Ваш живий Інтернет-банк
+                                        </p>
+                                        <a href="" class="red_btn">
+                                            Оплатити
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/monobank.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            Перший в Україні мобільний банк.
+                                        </p>
+                                        <a href="" class="red_btn">
+                                            Оплатити
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/easypay.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            EasyPay - онлайн оплата послуг
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsum sint
+                                            illo praesentium, ut quaerat fugiat qui et animi tempore! Fugit eum quidem
+                                            officia cumque nemo blanditiis, accusamus magnam sapiente.
+                                        </p>
+                                        <a href="" class="red_btn">
+                                            Оплатити
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/ipay.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            Онлайн Сервіс Платежів iPay.ua
+                                        </p>
+                                        <a href="" class="red_btn">
+                                            Оплатити
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/city24.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            City24.ua - Плати зручно та безпечно.
+                                        </p>
+                                        <a href="" class="red_btn">
+                                            Оплатити
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image17.svg" alt="">
+                    <div class="tab-pane fade1 fade " id="value2" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/ibox.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            Переказуй гроші з картки на картку
+                                            Грошові перекази онлайн з картки на картку Visa та MasterCard будь-якого
+                                            банку України
+                                            за 1 хвилину.
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/easypay.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            EasyPay готовий надати кожному користувачу зручний та доступний інструмент
+                                            для здійснення будь-яких регулярних та необхідних платежів.
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/city24.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            City 24 здійснює переказ коштів від фізичних осіб на користь юридичних осіб,
+                                            що надають роздрібні послуги, з використанням програмно-технічних комплексів
+                                            самообслуговування (платіжних терміналів).
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/nonstop.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            Поповнювати свої грошові рахунки стало ще простіше, тепер це можна робити за
+                                            допомогою системи терміналів 24nonSTOP.
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image16.svg" alt="">
+                    <div class="tab-pane fade1  fade" id="value3" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/uteamp.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            В офісах компанії
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image17.svg" alt="">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/ideabank.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            В мережі відділень “Ідея Банк”
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image16.svg" alt="">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/privat1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            В мережі відділень “Приват Банк”
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news_item">
-                            <div class="news_item_img">
-                                <img src="./assets/img/image17.svg" alt="">
+                            <div class="col-md-6">
+                                <div class="payment_item">
+                                    <div class="payment_item_header">
+                                        <div class="payment_item_img">
+                                            <img src="./assets/img/aval.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="payment_item_body">
+                                        <p>
+                                            В мережі відділень “Райффайзен Банк Аваль”
+                                        </p>
+                                        <a href="" class="more_btn">
+                                            Детальніше...
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="news_item_title">
-                                Щиро вітаємо Вас
-                                з Великоднем!
-                            </p>
-                            <p class="news_item_text">
-                                Нехай це величне свято наповнить Ваші серця світлими почуттями надії і любові, дарує
-                                щастя та добро.
-                            </p>
-                            <a href="" class="more_btn">
-                                Детальніше...
-                            </a>
                         </div>
-                    </div>
-                </div>
-                <div class="news_pagination">
-                    <nav aria-label="navigation ">
-                        <ul class="pagination justify-content-center">
-                            <li class=" pagination_btn">
-                                <a class="page_link" href="#" tabindex="-1">
-                                    <img src="./assets/img/prev.svg" alt="">
+                        <div class="payment_details">
+                            <div class="payment_details_text">
+                                <p>
+                                    У мережі відділень перелічених банків комісія за оплату послуг знижена.
+                                </p>
+                                <p>
+                                    Рекомендуємо здійснювати оплату до 25-го числа поточного місяця.
+                                </p>
+                                <p>
+                                    Скориставшись послугами відділень, зберігайте отримані квитанції.
+                                </p>
+                            </div>
+                            <div class="grey_line"></div>
+                            <div class="payment_reciept">
+                                <div class="payment_receipt_img">
+                                    <img src="./assets/img/file-text.svg" alt="">
+                                </div>
+                                <p>
+                                    КВИТАНЦІЯ НА ОПЛАТУ ПОСЛУГ
+                                </p>
+                                <a href="" class="grey_btn">
+                                    <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.5 17.0001V21.0001C23.5 21.5305 23.2893 22.0392 22.9142 22.4143C22.5391 22.7893 22.0304 23.0001 21.5 23.0001H7.5C6.96957 23.0001 6.46086 22.7893 6.08579 22.4143C5.71071 22.0392 5.5 21.5305 5.5 21.0001V17.0001M19.5 13L14.5 17.0001M14.5 17.0001L9.5 13M14.5 17.0001V5"
+                                            stroke="#363636" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span>
+                                        СКАЧАТИ
+                                    </span>
                                 </a>
-                            </li>
-                            <li class=""><a class="page_link active" href="#">1</a></li>
-                            <li class=""><a class="page_link" href="#">2</a></li>
-                            <li class=""><a class="page_link" href="#">3</a></li>
-                            <li class=""><a class="page_link" href="#">...</a></li>
-                            <li class=""><a class="page_link" href="#">18</a></li>
-                            <li class=""><a class="page_link" href="#">19</a></li>
-
-                            <li class=" pagination_btn">
-                                <a class="page_link" href="#">
-                                    <img src="./assets/img/next.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <div class="container">
-            <div class="row just_btwn">
+            <div class="my_row row just_btwn">
                 <div class="footer_contacts">
                     <div class="footer_contacts_numbers">
                         <a href="tel:0675557050">(067) 555-70-50</a>
@@ -339,7 +513,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row just_btwn align_center footer_social_row">
+            <div class="row my_row just_btwn align_center footer_social_row">
                 <div class="footer_social">
                     <a href="">
                         <img src="./assets/img/hedaertelegram.svg" alt="">

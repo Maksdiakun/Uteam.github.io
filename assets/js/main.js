@@ -71,14 +71,14 @@ function setMargin() {
         var margin = $('.container').css('margin-left');
         var width = $('.container').css('width');
         var sum = parseInt(margin) + parseInt(width) - 15;
-        $('.secvices_section .my_row').css('width', sum);
+        $('.home_page .secvices_section .my_row').css('width', sum);
     }
 };
 
 
 $(document).ready(function () {
     setMargin();
-    $('select').styler();
+    $('select , input[type="file"]').styler();
     var mySwiper = new Swiper('.top_banner_wrap .swiper-container', {
         speed: 400,
         disableOnInteraction: true,
@@ -131,6 +131,31 @@ $(document).ready(function () {
     $('.top_banner').click(function (e) {
         if ($(e.target).parent().is('form')) {
             e.preventDefault()
+        }
+    });
+
+
+    // faq
+    $('.faq_item_header').click(function (e) {
+        $(e.currentTarget).next().slideToggle(300);
+        $(e.currentTarget).toggleClass('faq_header_active');
+    });
+    $('.jq-file__name').html(' Файл не вибрано');
+    $('.delete_file').click(function (e) {
+        $('.input_file_wrap input').val('');
+        $('.jq-file__name').html(' Файл не вибрано');
+        $(e.currentTarget).css('display', 'none');
+        $('.input_file_wrap').css('padding-right', '0');
+
+    });
+    $('.input_file_wrap input').change(function (e) {
+        if (e.target.value == false || e.target.value == ' Файл не вибрано') {
+            $('.delete_file').css('display', 'none');
+            $('.input_file_wrap').css('padding-right', '0');
+        }
+        else {
+            $('.delete_file').css('display', 'block');
+            $('.input_file_wrap').css('padding-right', '35px');
         }
     });
 });

@@ -38,3 +38,188 @@
         margin-bottom: 20px;
     }
 }
+.services_page .secvices_section .row{
+    flex-wrap: wrap;
+    overflow: unset;
+}
+.services_add_title{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.additional_services{
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 10px;
+        padding: 15px 25px;
+    &_title{
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        position: relative;
+        &:after{
+            @include after;
+            bottom: 0;
+            left: -25px;
+            border-bottom: 1px solid #E5E5E5;
+            width: calc(100% + 50px);
+        }
+    }
+    ul{
+        padding: 10px 0;
+        border-bottom: 1px solid #E5E5E5;
+
+    }
+    li{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            line-height: 24px;
+        }
+        &:first-child{
+            font-weight: 600;
+        }
+        &>div:last-child{
+            width: 120px;
+            text-align: center;
+            flex-shrink: 0;
+            padding-left: 10px;
+            position: relative;
+            margin-left: 10px;
+            &:after{
+                @include after;
+                left: 0;
+                top: 0;
+                height: calc(100% + 15px);
+                width: 1px;
+                background-color: #E5E5E5;
+            }
+        }
+    }
+    &> .text_center{
+       font-style: italic;
+       padding-top: 20px;
+       padding-bottom: 10px;
+       line-height: 140%;
+    }
+}
+.faq_item{
+    &_header{
+        display: flex;
+        div{
+            color: #999;
+            font-size: 30px;
+            font-weight: 100;
+            span{
+                line-height: 24px ;
+                display: block;
+            }
+            span:last-child{
+                display: none;
+            }
+        }
+        p{
+            font-weight: 600;
+            font-size: 18px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+    &_body{
+        margin-top: 20px;
+        line-height: 24px;
+        display: none;
+        padding-left: 25px;
+    }
+    margin-bottom: 20px;
+}
+.faq_title{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.faq_header_active{
+    div{
+        span:last-child{
+            display: block;
+        }
+        span:first-child{
+            display: none;
+        }
+    }
+}
+.faq_list{
+    margin-top: 40px;
+}
+
+
+// payment
+.payment_item{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 15px 25px;
+    padding-bottom: 25px;
+    height: 100%;
+    &_header{
+        border-bottom: 1px solid #E5E5E5;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    &_body{
+        p{
+            line-height: 24px;
+        }
+    }
+    .red_btn{
+        margin-top: 30px;
+    }
+    .more_btn{
+        margin-top: 5px;
+    }
+    &_img{
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
+}
+.payment{
+    .col-md-6{
+        margin-top: 30px;
+    }
+    .grey_line{
+        margin-bottom: 20px;
+    }
+    &_details{
+        text-align: center;
+        margin-top: 60px;
+        &_text{
+            p{
+                margin-bottom: 15px;
+            }
+        }
+        .grey_line{
+            margin-top: 30px;
+        }
+    }
+    &_reciept{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        &_img{
+            margin: 0 auto;
+        }
+        p{
+            text-transform: uppercase;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+}
